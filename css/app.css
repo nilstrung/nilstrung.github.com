@@ -48,3 +48,164 @@
 .container {
 	padding-top: 120px;
 }
+
+#profile-player {
+	position: relative;
+	width: 230px;
+	height: 230px;
+	min-width: 230px;
+	min-height: 230px;
+	-webkit-border-radius: 50%;
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+  	border: none;
+  	overflow: none;
+}
+
+#profile h6, h4 {
+	font-family: "Bebas neue", sans serif;
+}
+
+
+#profile h6 {
+	line-height: 0.8;
+	font-size: 65px;
+	font-weight: 700;
+}
+
+#profile-name {
+	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+	height: 230px;
+}
+
+#profile-name div {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#profile h4 {
+	line-height: 0.5;
+	font-size: 40px;
+	font-weight: 500;
+
+}
+
+#profile b {
+	color: #ffaf03;
+}
+
+#rank {
+	text-align: center;
+}
+
+#rank h4, h6 {
+	font-family: "Bebas neue", sans serif;
+}
+
+#rank h4 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 0.1;
+}
+
+#rank h6 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 0.1;
+}
+
+#profile-rank {
+	/*width: 180px;
+	height: 180px;
+	min-height: 180px;
+	min-width: 180px;*/
+}
+
+#stats-title h2 {
+	margin-top: 50px;
+	font-weight: 700;
+	color: #ffaf03;
+	font-size: 30px;
+}
+
+#stats {
+	margin-top: 25px;
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#stats h5 {
+	font-size: 35px;
+	text-align: left;
+	font-weight: 700;
+}
+
+.champs {
+	margin: 0px;
+	padding: 0px;
+}
+
+.champs div {
+	padding: 0;
+	margin-right: 5px;
+}
+
+.champs img {
+	min-height: 35px;
+	min-width: 35px;
+	height: 35px;
+	width: 35px;
+	float: left;
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+  	border: none;
+  	overflow: none;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.middle-bar {
+	line-height: 2.1;
+}
+
+.middle-text {
+	line-height: 1.9;
+}
+
+.first-champ-bar {
+	margin-top: 10px;
+}
+
+.bar-red {
+	display: inline-block;
+	background: #ff4136; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff4136 0%, #7f201b 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4136), color-stop(99%,#7f201b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff4136 0%,#7f201b 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff4136 0%,#7f201b 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff4136 0%,#7f201b 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff4136 0%,#7f201b 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4136', endColorstr='#7f201b',GradientType=0 ); /* IE6-9 */
+	width: 100%;
+	height: 15px;
+	text-align: right;
+}
+
+.bar-green {
+	background: #2ecc40; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ecc40 0%, #114c18 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ecc40), color-stop(100%,#114c18)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ecc40 0%,#114c18 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ecc40 0%,#114c18 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ecc40 0%,#114c18 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ecc40 0%,#114c18 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc40', endColorstr='#114c18',GradientType=0 ); /* IE6-9 */
+	display: inline-block;
+	width: 100%;
+	height: 15px;
+	text-align: right;
+}
